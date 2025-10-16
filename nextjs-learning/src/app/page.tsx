@@ -1,3 +1,6 @@
+import Counter from "./components/counter";
+import ThemeToggler from "./components/ThemeToggler";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-10 ">
@@ -5,6 +8,8 @@ export default function Home() {
       <p className="text-gray-600 text-lg">
         This is my first Next.js app with the new App Router.
       </p>
+      <Counter />
+      <ThemeToggler />
     </main>
   )
 }
